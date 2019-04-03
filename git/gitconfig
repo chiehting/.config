@@ -1,0 +1,9 @@
+[user]
+    email = ting911111@gmail.com
+    name = chiehting
+[core]
+    quotepath = false
+    editor = vim
+    pager = bat
+[commit]
+    template = ~/.config/git/gitmessage

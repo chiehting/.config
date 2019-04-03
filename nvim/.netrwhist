@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/ting/proj/bao/bao-2017-sport-wwin/log/nb_m2d_json'
+let g:netrw_dirhist_2='/Users/ting/proj/larvata-ansible'
+let g:netrw_dirhist_3='/Users/ting/.oh-my-zsh/themes'
+let g:netrw_dirhist_4='/Users/ting/Desktop'

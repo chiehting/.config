@@ -1,0 +1,8 @@
+.DS_Store
+gtk*
+node_modules
+wireshark
+htop
+oh-my-zsh
+fisher
+plugged
