@@ -27,6 +27,9 @@ export ZSH=~/.config/zsh/oh-my-zsh
 source ~/.config/zsh/powerlevel9k
 source $ZSH/oh-my-zsh.sh
 
+# kubernetes config
+source ~/.config/scripts/kube_config.sh
+
 # alias
 alias vi="nvim"
 alias vim="nvim"
@@ -38,5 +41,8 @@ alias du="ncdu -q"
 function ssh () {/usr/bin/ssh -t $@ "tmux attach || tmux new || zsh || bash";}
 function key () {cat ~/.ssh/id_rsa.pub|pbcopy}
 
+# fzf
 [ -f ~/.config/fzf/fzf.zsh ] && source ~/.config/fzf/fzf.zsh
+
+# tmux
 [ -z "$TMUX" ] && ( tmux -f ~/.config/tmux/tmux.conf attach -t TMUX || tmux -f ~/.config/tmux/tmux.conf new -s TMUX )

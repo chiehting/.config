@@ -22,8 +22,14 @@ if test -z "$TMUX"
   tmux -f ~/.config/tmux/tmux.conf attach -t TMUX || tmux -f ~/.config/tmux/tmux.conf new -s TMUX
 end
 
+# fish
 test -f ~/.config/fish/fish_greeting.fish && source ~/.config/fish/fish_greeting.fish
+
+# fzf
 test -f ~/.config/fzf/fzf.fish && source ~/.config/fzf/fzf.fish
+
+# kubernetes config
+source ~/.config/scripts/kube_config.fish
 
 
 # ssh default shell of tmux
