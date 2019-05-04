@@ -1,15 +1,21 @@
 function fish_greeting -d "Greeting message on shell session start up"
-     echo ""
+     echo -en "\n"
+     echo -en (welcome_message) "\n"
+     echo -en "\n"
+     echo -en (show_date_info) "\n"
+     echo -en "\n"
+     echo -en "Space vessel computer:\n"
+     echo -en (show_net_info) "\n"
 
-     echo -en "          ________          ""\n"
-     echo -en "    o    |   __   |         " (welcome_message) "\n"
-     echo -en "    \_ O |  |__|  |         ""\n"
-     echo -en " ____/ \ |___WW___|         " (show_date_info) "\n"
-     echo -en " __/   /     ||             ""\n"
-     echo -en "             ||             ""Space vessel computer:\n"
-     echo -en "             ||             " (show_net_info) "\n"
-     echo -en "_____________||___________  ""\n"
-     echo ""
+#     echo -en "          ________          ""\n"
+#     echo -en "    o    |   __   |         " (welcome_message) "\n"
+#     echo -en "    \_ O |  |__|  |         ""\n"
+#     echo -en " ____/ \ |___WW___|         " (show_date_info) "\n"
+#     echo -en " __/   /     ||             ""\n"
+#     echo -en "             ||             ""Space vessel computer:\n"
+#     echo -en "             ||             " (show_net_info) "\n"
+#     echo -en "_____________||___________  ""\n"
+#     echo ""
 
 #    echo -en "        |         " (welcome_message) "\n"
 #    echo -en "       / \        \n"
@@ -21,9 +27,9 @@ function fish_greeting -d "Greeting message on shell session start up"
 #    echo -en "  /  |  |  |  \   \n"
 #    echo -en "  |,-'--|--'-.|   \n"
 
-    echo ""
+#    echo ""
     set_color grey
-    echo "Have a nice trip"
+#    echo "Have a nice trip"
     set_color normal
 end
 
