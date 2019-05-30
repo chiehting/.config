@@ -1,4 +1,5 @@
 function fish_greeting -d "Greeting message on shell session start up"
+     cal (date '+%Y')
      echo -en "\n"
      echo -en (welcome_message) "\n"
      echo -en "\n"
@@ -27,9 +28,9 @@ function fish_greeting -d "Greeting message on shell session start up"
 #    echo -en "  /  |  |  |  \   \n"
 #    echo -en "  |,-'--|--'-.|   \n"
 
-#    echo ""
+    echo ""
     set_color grey
-#    echo "Have a nice trip"
+    echo "Have a nice trip"
     set_color normal
 end
 

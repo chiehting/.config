@@ -1,7 +1,8 @@
-# set
+# set env
 set -x LC_CTYPE en_US.UTF-8
 set -x TITLE DevOps
 set -x EDITOR vim
+set -lx LOCAL_CONFIGDIR ~/.config
 
 # alias
 alias vi="nvim"
@@ -17,44 +18,17 @@ abbr -a -- - 'cd -'
 bind \cx\ce edit-command
 
 # run terminal with tmux
-if test -z "$TMUX"
-  tmux -f ~/.config/tmux/tmux.conf attach -t TMUX || tmux -f ~/.config/tmux/tmux.conf new -s TMUX
+if test -n "(command -v tmux)" && test -z "$TMUX"
+  tmux -f $LOCAL_CONFIG/tmux/tmux.conf attach -t TMUX || tmux -f $LOCAL_CONFIGDIR/tmux/tmux.conf new -s TMUX
 end
-
-# cowsay
-fortune | cowsay -f (ls /usr/local/Cellar/cowsay/3.04/share/cows | gshuf -n 1)
 
 # fish
-test -f ~/.config/fish/fish_greeting.fish && source ~/.config/fish/fish_greeting.fish
+test -f $LOCAL_CONFIGDIR/fish/fish_greeting.fish && source $LOCAL_CONFIGDIR/fish/fish_greeting.fish
+test -f $LOCAL_CONFIGDIR/fish/fish_greeting.fish && source $LOCAL_CONFIGDIR/fish/fish_function.fish
 
 # fzf
-test -f ~/.config/fzf/fzf.fish && source ~/.config/fzf/fzf.fish
+test -f $LOCAL_CONFIGDIR/fzf/fzf.fish && source $LOCAL_CONFIGDIR/fzf/fzf.fish
 
 # kubernetes config
-source ~/.config/scripts/kube_config.fish
+test -f $LOCAL_CONFIGDIR/scripts/kube_config.fish && source $LOCAL_CONFIGDIR/scripts/kube_config.fish
 
-# ssh default shell of tmux
-function ssh
-  if test "$argv" = "list" || test "$argv" = "ls"
-    cat ~/.ssh/config | grep -i '^host'
-  else
-    /usr/bin/ssh -t $argv "tmux attach || tmux new || zsh || bash";
-  end
-end
-
-
-
-# copy ssh key to clipboard
-function key
-  cat ~/.ssh/id_rsa.pub|pbcopy
-end
-
-# Use $EDITOR to edit the current command
-function edit-command
-    set -q EDITOR; or return 1
-    set -l tmpfile (mktemp); or return 1
-    commandline > $tmpfile
-    eval $EDITOR $tmpfile
-    commandline -r (cat $tmpfile)
-    rm $tmpfile
-end
