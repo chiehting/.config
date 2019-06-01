@@ -1,8 +1,17 @@
+# files
 .DS_Store
-gtk*
+yarn/yarnrc
+
+# folders
 node_modules
-wireshark
+backup
+gtk*
+fish/fisher
+zsh/oh-my-zsh
+nvim/plugged
+
+# auto create of package
 htop
-oh-my-zsh
-fisher
-plugged
+wireshark
+configstore
+

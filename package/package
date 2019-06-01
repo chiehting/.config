@@ -1,0 +1,34 @@
+# shell
+zsh
+fish
+
+# tools
+#ansible
+git
+git-flow
+tig
+pre-commit
+neovim
+tmux
+sass/sass/sass
+node
+yarn
+openssl
+kubernetes-cli
+kubernetes-helm
+k9s
+#sonarqube
+the_silver_searcher
+ripgrep
+exa
+htop
+bat
+fd
+fzf
+ncdu
+shellcheck
+wrk
+bench
+telnet
+tree
+
