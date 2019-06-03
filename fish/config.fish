@@ -19,7 +19,7 @@ bind \cx\ce edit-command
 
 # run terminal with tmux
 if test -n "(command -v tmux)" && test -z "$TMUX"
-  tmux -f $LOCAL_CONFIG/tmux/tmux.conf attach -t TMUX || tmux -f $LOCAL_CONFIGDIR/tmux/tmux.conf new -s TMUX
+  tmux attach -t TMUX || tmux -f $LOCAL_CONFIGDIR/tmux/tmux.conf new -s TMUX
 end
 
 # fish
