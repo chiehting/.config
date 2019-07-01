@@ -1,7 +1,7 @@
 # ssh default shell of tmux
 function ssh
   if test "$argv" = "list" || test "$argv" = "ls"
-    cat ~/.ssh/config | grep -i '^host'
+    cat ~/.ssh/**config | grep -i '^host'
   else
     /usr/bin/ssh -t $argv "tmux attach || tmux new || zsh || bash";
   end
