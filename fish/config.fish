@@ -1,5 +1,5 @@
 # set env
-set -x LC_CTYPE en_US.UTF-8
+set -x LC_ALL en_US.UTF-8
 set -x TITLE DevOps
 set -x EDITOR vim
 set -lx LOCAL_CONFIGDIR ~/.config
