@@ -16,7 +16,7 @@ yarn
 openssl
 kubernetes-cli
 kubernetes-helm
-k9s
+#k9s
 #sonarqube
 the_silver_searcher
 ripgrep
