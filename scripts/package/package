@@ -7,7 +7,7 @@ fish
 git
 git-flow
 tig
-pre-commit
+#pre-commit
 neovim
 tmux
 sass/sass/sass
@@ -31,4 +31,4 @@ wrk
 bench
 telnet
 tree
-
+python3

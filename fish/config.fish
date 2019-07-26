@@ -12,7 +12,6 @@ alias l="exa -alh"
 alias cat="bat -p"
 alias du="ncdu -q"
 alias python='python3'
-abbr dcdu 'docker-compose down && docker-compose up -d'
 abbr -a -- - 'cd -'
 
 bind \cx\ce edit-command

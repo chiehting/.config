@@ -8,13 +8,13 @@ alacritty
 
 # social network
 telegram
-slack
-discord
-skype
-qq
+#slack
+#discord
+#skype
+#qq
 
 # cloud storage browser
-cyberduck
+#cyberduck
 
 # application
 java
@@ -29,5 +29,5 @@ appcleaner
 the-unarchiver
 #typora
 macdown
-iina
+#iina
 wireshark

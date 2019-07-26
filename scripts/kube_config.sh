@@ -8,7 +8,8 @@ if [ -d "$config_dir" ]; then
   do
     kubeconfig=$kubeconfig:$cluster
   done
+
+  export KUBECONFIG=$kubeconfig
 fi
 
-export KUBECONFIG=$kubeconfig
 

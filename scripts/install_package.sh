@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd "$(dirname "$0")"/..
-package_dir=package
+package_dir=scripts/package
 
 # check ruby is installed
 [ -n "$(command -v /usr/bin/ruby)" ] || exit 1

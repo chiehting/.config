@@ -6,7 +6,8 @@ if [ -d "$config_dir" ]
   for cluster in $config_dir/*
     set kubeconfig $kubeconfig:$cluster
   end
+
+  export KUBECONFIG=$kubeconfig
 end
 
-export KUBECONFIG=$kubeconfig
 
