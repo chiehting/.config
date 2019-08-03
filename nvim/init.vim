@@ -3,6 +3,9 @@ set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
 set encoding=utf-8
 
+let g:python_host_prog='/usr/bin/python'
+let g:python3_host_prog='/usr/local/bin/python3'
+
 " 自動換行
 set wrap
 
@@ -75,6 +78,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug '/usr/local/opt/fzf'
     Plug 'junegunn/fzf.vim'
     Plug 'mattn/emmet-vim'
+    Plug 'zxqfl/tabnine-vim'
 call plug#end()
 
 " :source %
