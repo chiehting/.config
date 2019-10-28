@@ -10,7 +10,6 @@ gtk*
 fish/fisher
 zsh/oh-my-zsh
 nvim/plugged
-nvim/autoload
 
 # auto create of package
 htop
