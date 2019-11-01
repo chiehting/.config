@@ -20,8 +20,7 @@ telegram
 java
 sublime-text
 visual-studio-code
-virtualbox
-minikube
+#virtualbox
 postman
 robo-3t
 mysqlworkbench

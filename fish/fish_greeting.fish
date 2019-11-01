@@ -1,5 +1,5 @@
 function fish_greeting -d "Greeting message on shell session start up"
-     cal (date '+%Y')
+     cal -A 3 -B 2
      echo -en "\n"
      echo -en (welcome_message) "\n"
      echo -en "\n"
