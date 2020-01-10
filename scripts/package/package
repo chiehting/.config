@@ -7,6 +7,7 @@ fish
 git
 git-flow
 tig
+gnu-sed
 #pre-commit
 neovim
 tmux

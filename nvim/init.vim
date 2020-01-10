@@ -46,7 +46,7 @@ set nopaste
 set tabstop=2
 
 " 處理縮排
-set shiftwidth=4
+set shiftwidth=2
 
 " On pressing tab, insert 4 spaces
 set expandtab

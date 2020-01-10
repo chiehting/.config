@@ -11,7 +11,9 @@ alias ls="exa"
 alias l="exa -alh"
 alias cat="bat -p"
 alias du="ncdu -q"
+alias sed="gsed"
 alias python='python3'
+alias rg='rg -LH --hidden'
 abbr -a -- - 'cd -'
 
 bind \cx\ce edit-command
