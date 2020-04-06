@@ -17,6 +17,7 @@ skype
 #cyberduck
 
 # application
+docker
 java
 sublime-text
 visual-studio-code
@@ -25,6 +26,7 @@ postman
 robo-3t
 mysqlworkbench
 sequel-pro
+mounty
 appcleaner
 the-unarchiver
 #typora
