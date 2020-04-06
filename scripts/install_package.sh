@@ -10,7 +10,7 @@ package_dir=scripts/package
 [ -z "$(command -v brew)" ] && /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install tap
-tap_list=("caskroom/fonts" "homebrew/cask" "sass/sass")
+tap_list=("homebrew/cask-fonts" "homebrew/cask" "sass/sass")
 for ((i=0; i<${#tap_list[@]}; i++)); do
   brew tap ${tap_list[$i]}
 done

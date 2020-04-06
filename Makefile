@@ -9,6 +9,7 @@ help: ## show help
 
 .PHONY: init
 init: scripts/init.sh ## initialization
+	make install_package
 	sh scripts/init.sh
 
 .PHONY: install_package
