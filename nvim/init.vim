@@ -106,6 +106,7 @@ autocmd FileType html,css,scss,sass EmmetInstall
 " self
 imap <C-s> <Esc>:w<CR>
 map <C-s> :set nopaste<CR>:w<CR>
+map <C-w> :set nopaste<CR>:w<CR>:q<CR>
 map <C-c> :w !pbcopy<CR>
 map <C-p> :FZF<CR>
 
