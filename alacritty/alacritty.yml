@@ -373,10 +373,10 @@ live_config_reload: false
 #   - (macOS) /bin/bash --login
 #   - (Linux) user login shell
 #   - (Windows) powershell
-#shell:
-#  program: /bin/bash
-#  args:
-#    - --login
+shell:
+  program: /usr/local/bin/fish
+  args:
+    - --login
 
 # Startup directory
 #
