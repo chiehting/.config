@@ -685,7 +685,7 @@ key_bindings:
   - { key: Return,   mods: Command|Shift, chars: "\x11z"                       } # toggle pane zoom
   - { key: Comma,    mods: Command,       chars: "\x11,"                       } # toggle pane zoom
   - { key: S,        mods: Command,       chars: "\x11w"                       } # list windows
-  - { key: I,        mods: Command|Option,chars: "\x11e"                       } # toggle synchronize panes
+  - { key: E,        mods: Command|Option,chars: "\x11e"                       } # toggle synchronize panes
   - { key: M,        mods: Command,       chars: "\x11m"                       } # toggle mouse mode
   - { key: LBracket, mods: Command,       chars: "\x11["                       } # paste mode
   - { key: Right,    mods: Command|Shift, chars: "\x11\x1b[1;2D\x1bOC"         } # window move up

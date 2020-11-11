@@ -12,7 +12,7 @@ alias cat="bat -p"
 alias du="ncdu -q"
 alias sed="gsed"
 alias python='python3'
-alias rg='rg -LH --hidden'
+alias rg='rg -LH --hidden --no-ignore'
 abbr -a -- - 'cd -'
 
 bind \cx\ce edit-command
