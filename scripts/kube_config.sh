@@ -1,6 +1,6 @@
 #!/bin/sh
 
-config_dir=$HOME/.kube/conf
+config_dir=$HOME/.kube/kubeconfigs
 
 if [ -d "$config_dir" ]; then
   kubeconfig=$HOME/.kube/config

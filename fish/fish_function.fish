@@ -1,3 +1,17 @@
+# git
+#function git
+#  GIT_TRACE=true \
+#  GIT_CURL_VERBOSE=true \
+#  GIT_SSH_COMMAND="ssh -vvv" \
+#  GIT_TRACE_PACK_ACCESS=true \
+#  GIT_TRACE_PACKET=true \
+#  GIT_TRACE_PACKFILE=true \
+#  GIT_TRACE_PERFORMANCE=true \
+#  GIT_TRACE_SETUP=true \
+#  GIT_TRACE_SHALLOW=true \
+#  /usr/bin/git $argv
+#end
+
 # ssh default shell of tmux
 function ssh
   set -l subcmd $argv[1]

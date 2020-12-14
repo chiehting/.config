@@ -13,6 +13,7 @@ alias du="ncdu -q"
 alias sed="gsed"
 alias python='python3'
 alias rg='rg -LH --hidden --no-ignore'
+alias copy='pbcopy'
 abbr -a -- - 'cd -'
 
 bind \cx\ce edit-command

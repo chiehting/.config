@@ -15,12 +15,9 @@ sass/sass/sass
 node
 yarn
 openssl
-kubernetes-cli
-kubernetes-helm
-#k9s
-#sonarqube
 the_silver_searcher
 ripgrep
+#sonarqube
 exa
 htop
 bat
@@ -35,3 +32,16 @@ tree
 python3
 q
 jq
+mysql-client
+
+# aws
+aws-vault
+
+# kubernetes
+kubernetes-cli
+kubernetes-helm
+#k9s
+kubectx
+
+# media
+youtube-dl

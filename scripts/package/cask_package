@@ -17,6 +17,7 @@ skype
 #cyberduck
 
 # application
+proxyman
 docker
 java
 sublime-text
@@ -35,3 +36,4 @@ the-unarchiver
 macdown
 #iina
 wireshark
+obsidian
