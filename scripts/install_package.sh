@@ -17,7 +17,7 @@ done
 
 # install brew package
 [ -f $package_dir/package ] && cat $package_dir/package | grep -v '#' | grep -v '^$' | xargs brew install
-[ -f $package_dir/cask_package ] && cat $package_dir/cask_package | grep -v '#' | grep -v '^$' | xargs brew cask install
+[ -f $package_dir/cask_package ] && cat $package_dir/cask_package | grep -v '#' | grep -v '^$' | xargs brew install --cask
 
 # brew cleanup cache
 brew cleanup -s

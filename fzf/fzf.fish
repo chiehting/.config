@@ -3,4 +3,4 @@ set -x FZF_DEFAULT_COMMAND 'fd -H --exclude .git'
 
 # Key bindings
 # ------------
-#source "/usr/local/opt/fzf/shell/key-bindings.fish"
+source "/usr/local/opt/fzf/shell/key-bindings.fish"
