@@ -12,6 +12,7 @@ gnu-sed
 neovim
 tmux
 sass/sass/sass
+java
 node
 yarn
 openssl
@@ -24,6 +25,7 @@ bat
 fd
 fzf
 ncdu
+duf
 shellcheck
 wrk
 bench

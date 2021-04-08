@@ -10,6 +10,7 @@ alias ls="exa"
 alias l="exa -alh"
 alias cat="bat -p"
 alias du="ncdu -q"
+alias df="duf"
 alias sed="gsed"
 alias python='python3'
 alias rg='rg -LH --hidden --no-ignore'

@@ -18,14 +18,14 @@ skype
 
 # application
 proxyman
-docker
+#docker 使用dmg安裝, brew版本在local編輯時常常被鎖住
 sublime-text
 visual-studio-code
 lens
 gimp
 #virtualbox
 postman
-robo-3t
+#robo-3t
 mysqlworkbench
 sequel-pro
 mounty
