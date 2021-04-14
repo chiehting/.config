@@ -6,6 +6,11 @@ font-envy-code-r
 iterm2
 alacritty
 
+# browser
+firefox
+google-chrome
+sidekick
+
 # social network
 telegram
 #slack
@@ -18,7 +23,7 @@ skype
 
 # application
 proxyman
-#docker 使用dmg安裝, brew版本在local編輯時常常被鎖住
+docker
 sublime-text
 visual-studio-code
 lens
