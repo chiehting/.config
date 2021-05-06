@@ -2,6 +2,7 @@
 .DS_Store
 yarn/yarnrc
 nvim/.netrwhist
+fish/fish_variables
 
 # folders
 node_modules
