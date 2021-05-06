@@ -7,3 +7,5 @@
     pager = bat
 [commit]
     template = ~/.config/git/gitmessage
+[pull]
+    rebase = true
