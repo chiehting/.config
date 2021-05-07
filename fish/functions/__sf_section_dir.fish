@@ -8,7 +8,6 @@ function __sf_section_dir -d "Display the current truncated directory"
 	# ------------------------------------------------------------------------------
 
 	__sf_util_set_default SPACEFISH_DIR_SHOW true
-#	__sf_util_set_default SPACEFISH_DIR_PREFIX "in "
 	__sf_util_set_default SPACEFISH_DIR_PREFIX ""
 	__sf_util_set_default SPACEFISH_DIR_SUFFIX $SPACEFISH_PROMPT_DEFAULT_SUFFIX
 	__sf_util_set_default SPACEFISH_DIR_TRUNC 3
@@ -17,7 +16,7 @@ function __sf_section_dir -d "Display the current truncated directory"
 
 	# Write Permissions lock symbol
 	__sf_util_set_default SPACEFISH_DIR_LOCK_SHOW true
-	__sf_util_set_default SPACEFISH_DIR_LOCK_SYMBOL "[ LOCK ]"
+	__sf_util_set_default SPACEFISH_DIR_LOCK_SYMBOL ""
 	__sf_util_set_default SPACEFISH_DIR_LOCK_COLOR red
 
 	# ------------------------------------------------------------------------------

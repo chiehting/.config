@@ -8,9 +8,9 @@ function __sf_section_git -d "Display the git branch and status"
 	# ------------------------------------------------------------------------------
 
 	__sf_util_set_default SPACEFISH_GIT_SHOW true
-	__sf_util_set_default SPACEFISH_GIT_PREFIX ""
+	__sf_util_set_default SPACEFISH_GIT_PREFIX "on "
 	__sf_util_set_default SPACEFISH_GIT_SUFFIX $SPACEFISH_PROMPT_DEFAULT_SUFFIX
-	__sf_util_set_default SPACEFISH_GIT_SYMBOL (set_color blue)">"(set_color yellow)"> "(set_color green)
+	__sf_util_set_default SPACEFISH_GIT_SYMBOL " "
 
 	# ------------------------------------------------------------------------------
 	# Section
